@@ -1,0 +1,46 @@
+site_name: Documentation 
+site_name: REDCap Project Administration Guide
+site_description: A documentation site for administrators managing REDCap-based health research projects
+site_author: Sarah Stapleton
+repo_url: https://github.com/sarahstapleton-uol/redcap-admin-docs
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: pink
+    - scheme: slate
+      primary: deep purple
+      accent: pink
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - footnotes
+  - codehilite
+
+nav:
+  - Home: index.md
+  - Project Responsibilities: responsibilities.md
+  - Core Features:
+      - Data Collection: features/data-collection.md
+      - Security & Compliance: features/security.md
+      - User Management: features/user-management.md
+      - Audit Trails: features/audit-trails.md
+      - Data Export: features/data-export.md
+      - Automated Workflows: features/workflows.md
+      - Longitudinal Support: features/longitudinal.md
+  - Data Architecture: architecture.md
+  - Automation: automation.md
+  - Appendices:
+      - Glossary: appendices/glossary.md
+      - Admin Checklist: appendices/checklist.md
+      - External Links: appendices/links.md

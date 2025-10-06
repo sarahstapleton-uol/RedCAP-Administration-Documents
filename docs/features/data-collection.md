@@ -1,0 +1,77 @@
+
+
+# 1.0 Data Collection in REDCap
+
+A RedCAP Project Administrators must hold managerial responsbilities for design and management of data survey and collection tools. Some common tasks are writing new survey pages (forms), configuration of existing and customised surveys, validating data structures and security. The design of a survey form is an important stage in the relationship building process with members of the public. It attests to your professionalism and the standards of care that will be expected as well as the secure storage of collected data. A survey form that is simple-to-use and intuitively arranged produces data that can be structured for analysis quickly with the cost advantages expected from professional results.
+
+---
+
+# 1.1 Overview of Key Responsibilities
+
+- **Design Data Collection Instruments:** Create forms and surveys using a GUI instrument builder
+- **Enforce Data Structure:** Use field data types to distinguish between data types, and implement validation rules to ensure stipulations are being carried-out consistently; for example, dates require a suitable datetime format for longitudinal analysis
+- **Minimise Data Entry Errors:** Calculations can be used to enforce logical settings of fields and certain fields ensure mandatory entry of new values 
+- **Labels and Codes:** Record data in human readabile text to form labels and implement variable names for complex analysis
+
+---
+
+# 1.2 Tools and Features
+
+### 1.2.1 The Online Designer Tool
+
+Use the *Online Designer* to drag-and-drop and create instruments: Also useful for management of instruments.
+
+- OPTIONS include text fields, dropdown options lists, radial selection of listed responses, checkboxes for multiple responses, unrestricted text entries and others
+- Fields can be reordered at-will 
+- Use the RedCAP branching logic to show/hide fields dynamically
+
+### 1.2.2 The Custom Data Dictionary Resource
+
+A **Data Dictionary** is an exceptional resource if time and effort is expended at the outset of your project to ensure that it is maintained consistently and accurately. The dictionary is a human and software readable resource that reduces the burden of matching row and column data entries for the analyst and research scientist. It must be applied consistently and avoid fields that do not support modern analytical software; for example, the avoidance of <div>  fields that describe data types. Any number of survey fields are downloadable in .csv and .xml formats from the database and users of those entries, often 10**5 or 10**6, benefit from a functional suite of reference terms that organize those data fields. Advantages include:
+
+- Mass editing and analysis are faster
+- Variable name configurations, field types, options labels, branching logic, and all other fields can be exploited across analytical models
+----- The *Online Designer* tab ensures that this resource can be amended and uploaded at regular intervals should the project necessitate it
+
+---
+
+### 1.2.2.1 Types of Data Fields Reference Table
+
+Some commonly used field types in RedCAP are:
+
+| Field Type       | Use Case                             |
+|------------------|---------------------------------------|
+| Text Box         | Free text observations     |
+| Dropdown         | Select one of the following options     |
+| Checkbox         | Select as many as apply               |
+| Radio Buttons    | Choose only one option              |
+| Calculated Field | Compute required values using prior entries     |
+| Descriptive Text | Additional instructions          |
+| File Upload      | Collect forms/scans/images in .pdf etc.      |
+
+---
+
+## 2.0 Administration Guidelines
+
+- **Standardization** is PARAMOUNT to make effective use of the resource
+- **Validation** over fields restricts undesirable behaviours
+- Structure is imperative and related fields must be grouped
+- Group logically related fields into separate instruments
+- It is recommended to implement some degree of **branching logic** to simplify user experience
+- Consider designing and implementing a test environment before deploying changes to the patient-facing environment
+
+---
+
+## 2.1 Importing Data
+
+Project administrators can import structured datasets from other services where there are precisely matching variable names and definitions. There are two possible options for doing so; a **CSV Import Tool**, and a **REDCap API** (for advanced users). 
+
+---
+
+## 2.2 Auditing Data
+
+Administrators should regularly review survey and field instruments for usability, clarity, and compliance with the reference data governance standards. In Healthcare programmes, and at the time of writing, this is likely to be the USA's HIPPA. 
+
+---
+
+_Last updated: {{ Monday 6th October 2025 }}_
