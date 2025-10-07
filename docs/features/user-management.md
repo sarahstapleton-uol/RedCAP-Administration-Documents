@@ -47,5 +47,10 @@ E. Data Access Groups (DAGs)
 
 While not a permission per se, DAGs restrict users views of data to within their assigned group, which ensures multiple levels of access are permitted by different research teams. The DAG can be assigned under the Data Access Groups tab.
 
+F. Removal of User Accounts
 
+A user whose account is dormant can be removed from the project by accessing:
+- Control Center > Browse Users 
+- Sort/filter by most recent login date (or timestamp) 
+- Deactivate accounts no longer required
 
