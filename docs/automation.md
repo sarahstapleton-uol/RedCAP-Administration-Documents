@@ -4,7 +4,7 @@ Where REDCap is configured with LDAP, SSO, or Shibboleth, a user can access the 
 
 B. Technical Users and the API
 
-Where suitable project permissions exist, a user can be granted access to data stored by the project's REDCap account using an API key. The scripts can be writting in R or Python. Amongst the features available to manage users from an API are:
+Where suitable project permissions exist, a user can be granted access to data stored by the project's REDCap account using an API key. The scripts can be written in R or Python. Amongst the features available to manage users from an API are:
 - Batch additions or ammendments to user accounts 
 - Configuration of user rights or roles
 - Querying user activity logs
