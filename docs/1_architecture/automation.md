@@ -1,4 +1,4 @@
-#### Automation
+#### 2.1 Automation
 
 A. Identity Provider Authentication via Integration
 
